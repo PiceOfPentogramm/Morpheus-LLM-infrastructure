@@ -11,5 +11,9 @@ flask==3.0.0
 # Или использовать что-то простое как PySimpleGUI
 PySimpleGUI==4.60.5
 
+# AI модель (для ядра)
+huggingface-hub
+llama-cpp-python
+
 # Для упаковки в .exe
 pyinstaller==6.3.0
