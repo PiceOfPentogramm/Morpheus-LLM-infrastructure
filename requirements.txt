@@ -1,0 +1,15 @@
+# Зависимости проекта
+# Для упаковки в .exe будем использовать PyInstaller
+
+# Telegram бот
+python-telegram-bot==20.7
+
+# API сервер
+flask==3.0.0
+
+# GUI (можно использовать tkinter - встроен в Python)
+# Или использовать что-то простое как PySimpleGUI
+PySimpleGUI==4.60.5
+
+# Для упаковки в .exe
+pyinstaller==6.3.0
