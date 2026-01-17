@@ -2,7 +2,7 @@
 # Для упаковки в .exe будем использовать PyInstaller
 
 # Telegram бот
-python-telegram-bot==20.7
+pyTelegramBotAPI==4.14.0
 
 # API сервер
 flask==3.0.0
