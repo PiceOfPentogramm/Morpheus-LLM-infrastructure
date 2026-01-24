@@ -1,19 +1,16 @@
-# Зависимости проекта
-# Для упаковки в .exe будем использовать PyInstaller
-
 # Telegram бот
 pyTelegramBotAPI==4.14.0
 
 # API сервер
 flask==3.0.0
+requests==2.31.0
 
-# GUI (можно использовать tkinter - встроен в Python)
-# Или использовать что-то простое как PySimpleGUI
-PySimpleGUI==4.60.5
+# Внешняя LLM
+openai==1.3.7
 
-# AI модель (для ядра)
-huggingface-hub
-llama-cpp-python
+# GUI (для окна настроек)
+# tkinter уже встроен в Python
 
-# Для упаковки в .exe
-pyinstaller==6.3.0
+# Для будущей работы с локальными моделями (опционально)
+# llama-cpp-python==0.2.20
+# transformers==4.35.0
